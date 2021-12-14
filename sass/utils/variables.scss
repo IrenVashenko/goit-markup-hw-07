@@ -1,0 +1,21 @@
+:root {
+    --clr-white: #FFFFFF;
+    --clr-grey: #212121;
+    --clr-grey-1:#2F303A;
+    --clr-grey-2: #757575;
+    --clr-grey-3:rgba(255, 255, 255, 0.6);
+    --clr-grey-light: #F5F4FA;
+    --clr-black: #000000;
+    --clr-hover: #2196F3;
+    --clr-icon: #afb1b8;
+    --clr-box-hover: rgba(33, 150, 243, 0.9);
+}
+body {
+    font-family: 'Roboto';
+    color: var(--clr-grey);
+    margin: 0;
+}
+
+.header-logo {
+    font-family: Raleway;
+}

@@ -1,0 +1,74 @@
+.team {
+    background-color: #F5F4FA;
+}
+.team__list {
+    display: flex;
+    margin-top: 50px;
+}  
+.team__item {
+    background-color: var(--clr-white);
+    box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
+    border-radius: 0px 0px 4px 4px;
+}
+
+.team__item:not(:last-child){
+    margin-right: 30px;
+}
+.team__position {
+    padding: 30px 0;
+}
+.team__name {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.19;
+    text-align: center;
+    letter-spacing: 0.03em;
+    color: var(--clr-grey);
+
+    margin-bottom: 10px;
+}
+.team__job {
+    font-size: 16px;
+    line-height: 1.14; 
+    text-align: center;
+    letter-spacing: 0.03em;
+    color: var(--clr-grey-2);
+}
+.masters-team {
+    padding: 16px 32px 0 32px;
+}
+.team__masters-social-list {
+    margin-top: 16px;
+    display: flex;
+    justify-content: center;
+}
+.team__masters-social-item {
+    width: 44px;
+    height: 44px;
+}
+.team__masters-social-item + .team__masters-social-item {
+    margin-left: 10px;
+}
+.team__masters-social-link {
+    fill: var(--clr-icon);  
+    width: 100%;
+    height: 100%;
+    border-radius: 50px;
+    @extend %align-list;
+    // display: flex;
+    // align-items: center;
+    justify-content: center;
+
+    transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1), fill 250ms cubic-bezier(0.4, 0, 0.2, 1), transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
+    &:hover,
+    &:focus {
+        width: 100%;
+        height: 100%;
+        border-radius: 50px;
+        background-color: var(--clr-hover);
+        fill: var(--clr-white);
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+}
