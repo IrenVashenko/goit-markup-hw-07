@@ -1,4 +1,4 @@
-.about__list {
+.about {
     display: flex;
 }
 .about__item:not(:last-child) {
@@ -18,7 +18,11 @@
     justify-content: center;
     margin-bottom: 30px;
 }
-
+.icon-antenna {
+    max-width: 100%;
+    display: block;
+    height: auto;
+}
 .about__title {
     font-weight: 700;
     font-size: 36px;
@@ -37,7 +41,6 @@
     text-transform: uppercase;
     color: var(--clr-grey);
     margin-bottom: 10px;
-
 }
 .about__subtext {
     font-size: 14px;
@@ -46,4 +49,4 @@
     color: var(--clr-grey-2);
 
     width: 270px;
-} 
+}

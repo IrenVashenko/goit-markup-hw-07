@@ -1,15 +1,15 @@
-.categories__list {
+.categories {
     display: flex;
     justify-content: center;
 }
-.collection__list {
+.collection {
     padding-top: 50px;
 }
-.categorie__item:not(:last-child){
-    margin-right:8px;
+.categorie__item:not(:last-child) {
+    margin-right: 8px;
 }
 .categorie__link {
-    background: #F5F4FA;
+    background: #f5f4fa;
     border-radius: 4px;
 
     font-weight: 500;
@@ -20,7 +20,8 @@
     color: var(--clr-grey);
     padding: 10px 22px;
 
-    transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1), color 250ms cubic-bezier(0.4, 0, 0.2, 1), transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
+    transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1), color 250ms cubic-bezier(0.4, 0, 0.2, 1),
+        transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
     &:hover,
     &:focus {
         background-color: var(--clr-hover);
@@ -31,10 +32,8 @@
 }
 .categorie__links {
     transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1), transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
-    &:hover{
+    &:hover {
         display: block;
-        box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 
-                    0px 4px 4px rgba(0, 0, 0, 0.06), 
-                    1px 4px 6px rgba(0, 0, 0, 0.16);
+        box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06), 1px 4px 6px rgba(0, 0, 0, 0.16);
     }
 }

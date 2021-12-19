@@ -7,14 +7,14 @@
     letter-spacing: 0.06em;
     text-transform: uppercase;
     color: var(--clr-white);
-    
+
     margin: 0 auto;
     margin-bottom: 30px;
 
     width: 696px;
 }
 /* --------------- Business-title --------------- */
-.business__title {
+.section__title {
     font-weight: 700;
     font-size: 36px;
     line-height: 1.17;
@@ -24,7 +24,7 @@
 }
 
 /* ------------------- Clients ------------------- */
-.clent__title {
+.section__title {
     font-weight: 700;
     font-size: 36px;
     line-height: 1.17;
@@ -35,11 +35,3 @@
     margin-bottom: 50px;
 }
 /* --------------- Team-title --------------- */
-.team__title {
-    font-weight: 700;
-    font-size: 36px;
-    line-height: 1.17;
-    text-align: center;
-    letter-spacing: 0.03em;
-    color: var(--clr-grey);
-}
